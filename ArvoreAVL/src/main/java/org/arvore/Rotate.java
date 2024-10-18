@@ -9,7 +9,7 @@ public class Rotate {
     private int tamanho(Node N) {
         if (N == null)
             return 0; //Se a altura de um nó for null irá retornar zero.
-        return N.tamanho;
+        return N.height;
     }
 
     //Realiza uma rotação pra direita
